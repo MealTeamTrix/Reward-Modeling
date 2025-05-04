@@ -1,12 +1,11 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# Reward Model Training with TRL
 
-## Description
-Optional section to provide a more detailed overview of the project.
+This project trains a reward model using the `trl` library and the `trl-lib/ultrafeedback_binarized` dataset.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Features
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
-
+- Uses OpenAI GPT (`openai-gpt`) as the base model.
+- Custom tokenizer and chat template integration.
+- Tokenized prompt formatting for preference modeling.
+- Custom loss logging with live plotting.
+- Model training using `RewardTrainer` from the TRL library.
